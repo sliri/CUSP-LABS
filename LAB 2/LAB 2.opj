@@ -1,0 +1,100 @@
+(ExpressProject "LAB 2"
+  (ProjectVersion "19981106")
+  (SoftwareVersion "17.4-2021 S007-[09/11/21]")
+  (ProjectType "Analog or A/D Mixed Mode")
+  (Folder "Design Resources"
+    (Folder "Library"
+      (File "..\title block olb's\titleblocks.olb"
+        (Type "Schematic Library"))
+      (File "..\pspice models\sihf640.olb"
+        (Type "Schematic Library")))
+    (Allegro Netlist Directory "allegro")
+    (DOCKED "TRUE")
+    (DOCKING_POSITION "59420")
+    (NoModify)
+    (File ".\lab 2.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (Board_sim_option "VHDL_flow")
+    (PSPICE_Regenerate_Netlist_Flag "FALSE"))
+  (Folder "Layout")
+  (Folder "Outputs"
+    (File ".\lab 2-pspicefiles\trasnient\trasnient.net"
+      (Type "Report")))
+  (Folder "PSpice Resources"
+    (Folder "Simulation Profiles"
+      (ActiveProfile ".\lab 2-pspicefiles\trasnient\transient.sim")
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\lab 2-pspicefiles\trasnient\transient.sim"
+        (DisplayName "Trasnient-Transient")
+        (Type "PSpice Profile")))
+    (Folder "Stimulus Files")
+    (Folder "Include Files")
+    (Folder "Model Libraries"
+      (File "..\pspice models\sihf640.lib"
+        (DisplayName "..\pspice models\sihf640.lib")
+        (Type "PSpiceLibrary"))
+      (Sort User)))
+  (DefaultLibraryBrowseDirectory "library\PSpice")
+  (Folder "Logs")
+  (PartMRUSelector
+    (Dbreak
+      (FullPartName "Dbreak.Normal")
+      (LibraryName
+         "C:\CADENCE\PSPICETI\TOOLS\CAPTURE\LIBRARY\PSPICE\BREAKOUT.OLB")
+      (DeviceIndex "0"))
+    (POWER_DIODE_P
+      (FullPartName "POWER_DIODE_P.Normal")
+      (LibraryName
+         "C:\CADENCE\PSPICETI\TOOLS\CAPTURE\LIBRARY\PSPICE\BREAKOUT.OLB")
+      (DeviceIndex "0"))
+    (TitleBlockCUSP
+      (LibraryName
+         "C:\USERS\KINGL\ONEDRIVE\DOCUMENTS\FIRSTCOURSE_PE_BOOK09_CONVERTED\CUSP-LABS\TITLE BLOCK OLB'S\TITLEBLOCKS.OLB")
+      (DeviceIndex "0"))
+    (IDC
+      (FullPartName "IDC.Normal")
+      (LibraryName
+         "C:\CADENCE\PSPICETI\TOOLS\CAPTURE\LIBRARY\PSPICE\SOURCE.OLB")
+      (DeviceIndex "0")))
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources"
+         "c:\users\kingl\onedrive\documents\firstcourse_pe_book09_converted\cusp-labs\lab 2\lab 2.dsn")
+      (Path "Design Resources"
+         "c:\users\kingl\onedrive\documents\firstcourse_pe_book09_converted\cusp-labs\lab 2\lab 2.dsn"
+         "Trasnient")
+      (Path "Design Resources"
+         "c:\users\kingl\onedrive\documents\firstcourse_pe_book09_converted\cusp-labs\lab 2\lab 2.dsn"
+         "Design Cache")
+      (Path "Design Resources" "Library")
+      (Path "Design Resources" "Library"
+         "c:\users\kingl\onedrive\documents\firstcourse_pe_book09_converted\cusp-labs\title block olb's\titleblocks.olb")
+      (Path "Design Resources" "Library"
+         "c:\users\kingl\onedrive\documents\firstcourse_pe_book09_converted\cusp-labs\pspice models\sihf640.olb")
+      (Path "Outputs")
+      (Path "PSpice Resources")
+      (Path "PSpice Resources" "Model Libraries")
+      (Path "PSpice Resources" "Simulation Profiles")
+      (Select "Design Resources"
+         "c:\users\kingl\onedrive\documents\firstcourse_pe_book09_converted\cusp-labs\lab 2\lab 2.dsn"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 0 313 0 755"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 5 24 5 891 24 773")
+        (Scroll "1293 698")
+        (Zoom "204")
+        (Occurrence "/"))
+      (Path
+         "C:\USERS\KINGL\ONEDRIVE\DOCUMENTS\FIRSTCOURSE_PE_BOOK09_CONVERTED\CUSP-LABS\LAB 2\LAB 2.DSN")
+      (Schematic "Trasnient")
+      (Page "Trasnsient")))
+  (MPSSessionName "kingl"))
