@@ -1,12 +1,14 @@
 (ExpressProject "LAB 2"
   (ProjectVersion "19981106")
-  (SoftwareVersion "17.4-2021 S007-[09/11/21]")
+  (SoftwareVersion "17.4-2021 S007-[09/24/21]")
   (ProjectType "Analog or A/D Mixed Mode")
   (Folder "Design Resources"
     (Folder "Library"
       (File "..\title block olb's\titleblocks.olb"
         (Type "Schematic Library"))
       (File "..\pspice models\sihf640.olb"
+        (Type "Schematic Library"))
+      (File "..\pspice models\mur2020.olb"
         (Type "Schematic Library")))
     (Allegro Netlist Directory "allegro")
     (DOCKED "TRUE")
@@ -39,6 +41,16 @@
   (DefaultLibraryBrowseDirectory "library\PSpice")
   (Folder "Logs")
   (PartMRUSelector
+    (power_Dbreak
+      (FullPartName "power_Dbreak.Normal")
+      (LibraryName
+         "C:\CADENCE\PSPICETI\TOOLS\CAPTURE\LIBRARY\PSPICE\BREAKOUT.OLB")
+      (DeviceIndex "0"))
+    (MUR2020
+      (FullPartName "MUR2020.Normal")
+      (LibraryName
+         "C:\USERS\KINGL\ONEDRIVE\DOCUMENTS\FIRSTCOURSE_PE_BOOK09_CONVERTED\CUSP-LABS\PSPICE MODELS\MUR2020.OLB")
+      (DeviceIndex "0"))
     (Dbreak
       (FullPartName "Dbreak.Normal")
       (LibraryName
@@ -74,24 +86,26 @@
          "c:\users\kingl\onedrive\documents\firstcourse_pe_book09_converted\cusp-labs\title block olb's\titleblocks.olb")
       (Path "Design Resources" "Library"
          "c:\users\kingl\onedrive\documents\firstcourse_pe_book09_converted\cusp-labs\pspice models\sihf640.olb")
+      (Path "Design Resources" "Library"
+         "c:\users\kingl\onedrive\documents\firstcourse_pe_book09_converted\cusp-labs\pspice models\mur2020.olb")
       (Path "Outputs")
       (Path "PSpice Resources")
       (Path "PSpice Resources" "Model Libraries")
       (Path "PSpice Resources" "Simulation Profiles")
-      (Select "Design Resources"
-         "c:\users\kingl\onedrive\documents\firstcourse_pe_book09_converted\cusp-labs\lab 2\lab 2.dsn"))
+      (Select "Design Resources" "Library"
+         "c:\users\kingl\onedrive\documents\firstcourse_pe_book09_converted\cusp-labs\pspice models\mur2020.olb"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 0 313 0 755"))
+        (Placement "44 0 1 -1 -1 -1 -1 0 412 0 755"))
       (Tab 0))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 5 24 5 891 24 773")
-        (Scroll "1293 698")
-        (Zoom "204")
+        (Placement "44 0 1 -1 -1 5 24 5 878 24 773")
+        (Scroll "1613 1146")
+        (Zoom "244")
         (Occurrence "/"))
       (Path
          "C:\USERS\KINGL\ONEDRIVE\DOCUMENTS\FIRSTCOURSE_PE_BOOK09_CONVERTED\CUSP-LABS\LAB 2\LAB 2.DSN")
