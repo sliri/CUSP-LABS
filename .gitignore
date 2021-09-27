@@ -80,3 +80,51 @@ LAB 1/LAB1-PSpiceFiles/Trasnient/Trasnient/Trasnient.mrk
 LAB 1/LAB1-PSpiceFiles/Trasnient/Trasnient/Trasnient.out
 LAB 1/LAB1-PSpiceFiles/Trasnient/Trasnient/Trasnient.prb
 LAB 1/LAB1-PSpiceFiles/Trasnient/Trasnient/Trasnient.out.1
+
+LAB 2/LAB 2_0.DBK
+
+LAB 2/lab 2_pspmetadata.db
+
+LAB 2/LAB 2-PSpiceFiles/Trasnient/default.mrk
+
+LAB 2/LAB 2-PSpiceFiles/Trasnient/Transient.sim
+
+LAB 2/LAB 2-PSpiceFiles/Trasnient/Transient/chkpt_default/state_Hdr
+
+LAB 2/LAB 2-PSpiceFiles/Trasnient/Transient/chkpt_default/state_map
+
+LAB 2/LAB 2-PSpiceFiles/Trasnient/Transient/chkpt_default/state1
+
+LAB 2/LAB 2-PSpiceFiles/Trasnient/Transient/chkpt_default/state2
+
+LAB 2/LAB 2-PSpiceFiles/Trasnient/Transient/Install_TIPSpice.json
+
+LAB 2/LAB 2-PSpiceFiles/Trasnient/Transient/Transient Ids Vds.dat
+
+LAB 2/LAB 2-PSpiceFiles/Trasnient/Transient/Transient Vgs off.dat
+
+LAB 2/LAB 2-PSpiceFiles/Trasnient/Transient/Transient Vgs.dat
+
+LAB 2/LAB 2-PSpiceFiles/Trasnient/Transient/Transient.1OP
+
+LAB 2/LAB 2-PSpiceFiles/Trasnient/Transient/Transient.cir
+
+LAB 2/LAB 2-PSpiceFiles/Trasnient/Transient/Transient.dat
+
+LAB 2/LAB 2-PSpiceFiles/Trasnient/Transient/Transient.json
+
+LAB 2/LAB 2-PSpiceFiles/Trasnient/Transient/Transient.mif
+
+LAB 2/LAB 2-PSpiceFiles/Trasnient/Transient/Transient.mrk
+
+LAB 2/LAB 2-PSpiceFiles/Trasnient/Transient/Transient.out
+
+LAB 2/LAB 2.png
+
+Pspice Models/MUR200.ind
+
+Pspice Models/MUR200.LIBerrorLog
+
+Pspice Models/MUR2020_0.OBK
+
+Pspice Models/MUR2020.symwiz.log

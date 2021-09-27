@@ -1,6 +1,6 @@
 (ExpressProject "LAB 2"
   (ProjectVersion "19981106")
-  (SoftwareVersion "17.4-2021 S007-[09/24/21]")
+  (SoftwareVersion "17.4-2021 S007-[09/25/21]")
   (ProjectType "Analog or A/D Mixed Mode")
   (Folder "Design Resources"
     (Folder "Library"
@@ -31,16 +31,23 @@
          ".\lab 2-pspicefiles\trasnient\transient.sim"
         (DisplayName "Trasnient-Transient")
         (Type "PSpice Profile")))
-    (Folder "Stimulus Files")
-    (Folder "Include Files")
+    (Folder "Stimulus Files"
+      (Sort User))
+    (Folder "Include Files"
+      (Sort User))
     (Folder "Model Libraries"
+      (Sort User)
       (File "..\pspice models\sihf640.lib"
-        (DisplayName "..\pspice models\sihf640.lib")
-        (Type "PSpiceLibrary"))
-      (Sort User)))
+        (Type "PSpiceLibrary")
+        (DisplayName "..\pspice models\sihf640.lib"))))
   (DefaultLibraryBrowseDirectory "library\PSpice")
   (Folder "Logs")
   (PartMRUSelector
+    (MUR200
+      (FullPartName "MUR200.Normal")
+      (LibraryName
+         "C:\USERS\KINGL\ONEDRIVE\DOCUMENTS\FIRSTCOURSE_PE_BOOK09_CONVERTED\CUSP-LABS\PSPICE MODELS\MUR2020.OLB")
+      (DeviceIndex "0"))
     (power_Dbreak
       (FullPartName "power_Dbreak.Normal")
       (LibraryName
@@ -93,7 +100,8 @@
       (Path "PSpice Resources" "Model Libraries")
       (Path "PSpice Resources" "Simulation Profiles")
       (Select "Design Resources" "Library"
-         "c:\users\kingl\onedrive\documents\firstcourse_pe_book09_converted\cusp-labs\pspice models\mur2020.olb"))
+         "c:\users\kingl\onedrive\documents\firstcourse_pe_book09_converted\cusp-labs\pspice models\mur2020.olb"
+         "MUR200"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
@@ -104,8 +112,8 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 5 24 5 878 24 773")
-        (Scroll "1613 1146")
-        (Zoom "244")
+        (Scroll "-3 -62")
+        (Zoom "50")
         (Occurrence "/"))
       (Path
          "C:\USERS\KINGL\ONEDRIVE\DOCUMENTS\FIRSTCOURSE_PE_BOOK09_CONVERTED\CUSP-LABS\LAB 2\LAB 2.DSN")

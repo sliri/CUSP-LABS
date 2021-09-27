@@ -1,0 +1,60 @@
+(ExpressProject "LAB 3"
+  (ProjectVersion "19981106")
+  (SoftwareVersion "17.4-2021 S007-[09/25/21]")
+  (ProjectType "Analog or A/D Mixed Mode")
+  (Folder "Design Resources"
+    (Folder "Library")
+    (Allegro Netlist Directory "allegro")
+    (DOCKED "TRUE")
+    (DOCKING_POSITION "59420")
+    (NoModify)
+    (File ".\lab 3.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (PSPICE_Regenerate_Netlist_Flag "FALSE"))
+  (Folder "Layout")
+  (Folder "Outputs"
+    (File
+       ".\lab 3-pspicefiles\capacitor characteristics\capacitor characteristics.net"
+      (Type "Report")))
+  (Folder "PSpice Resources"
+    (Folder "Simulation Profiles"
+      (ActiveProfile
+         ".\lab 3-pspicefiles\capacitor characteristics\frequency.sim")
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\lab 3-pspicefiles\capacitor characteristics\frequency.sim"
+        (DisplayName "capacitor characteristics-frequency")
+        (Type "PSpice Profile")))
+    (Folder "Model Libraries")
+    (Folder "Stimulus Files")
+    (Folder "Include Files"))
+  (DefaultLibraryBrowseDirectory "library\PSpice")
+  (Folder "Logs")
+  (PartMRUSelector)
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources"
+         "C:\Users\kingl\OneDrive\Documents\FirstCourse_PE_Book09_CONVERTED\CUSP-LABS\LAB 3\lab 3.dsn")
+      (Path "Design Resources"
+         "C:\Users\kingl\OneDrive\Documents\FirstCourse_PE_Book09_CONVERTED\CUSP-LABS\LAB 3\lab 3.dsn"
+         "capacitor characteristics")
+      (Path "Outputs"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 0 390 0 732"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 5 1078 24 773")
+        (Scroll "2879 2103")
+        (Zoom "488")
+        (Occurrence "/"))
+      (Path
+         "C:\USERS\KINGL\ONEDRIVE\DOCUMENTS\FIRSTCOURSE_PE_BOOK09_CONVERTED\CUSP-LABS\LAB 3\LAB 3.DSN")
+      (Schematic "capacitor characteristics")
+      (Page "PAGE1"))))
