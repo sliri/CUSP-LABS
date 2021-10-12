@@ -1,6 +1,6 @@
 (ExpressProject "LAB 4"
   (ProjectVersion "19981106")
-  (SoftwareVersion "17.4-2019 S015 (3921426)  [2/23/2021]-[10/07/21]")
+  (SoftwareVersion "17.4-2019 S015 (3921426)  [2/23/2021]-[10/12/21]")
   (ProjectType "PCB")
   (Folder "Design Resources"
     (Folder "Library"
@@ -15,7 +15,63 @@
     (BuildFileAddedOrDeleted "x")
     (CompileFileAddedOrDeleted "x")
     (PSPICE_Regenerate_Netlist_Flag "FALSE")
-    (RootChangedForceReNetlist "x"))
+    (RootChangedForceReNetlist "x")
+    (DRC_Scope "0")
+    (DRC_Action "1")
+    (DRC_Create_Warnings "TRUE")
+    (DRC_View_Output "TRUE")
+    (DRC_View_Output_Type "2")
+    (DRC_Preserved_Waived "FALSE")
+    (RUN_Online_Rules "TRUE")
+    (DRC_Run_Electrical_Rules "TRUE")
+    (DRC_Check_Single_Node_Nets "TRUE")
+    (DRC_Check_No_Driving_Source "TRUE")
+    (DRC_Check_Duplicate_NetNames "TRUE")
+    (DRC_Check_Off-Page_Connectors "FALSE")
+    (DRC_Check_Ports "FALSE")
+    (DRC_Check_Unconnected_Nets "TRUE")
+    (DRC_Check_Floating_Pins "TRUE")
+    (DRC_SDT_Compatibility "FALSE")
+    (DRC_Check_Single_Node_Nets_Online "TRUE")
+    (DRC_Check_No_Driving_Source_Online "FALSE")
+    (DRC_Check_Duplicate_NetNames_Online "TRUE")
+    (DRC_Check_Off-Page_Connectors_Online "FALSE")
+    (DRC_Check_Ports_Online "FALSE")
+    (DRC_Check_Unconnected_Nets_Online "FALSE")
+    (DRC_Check_Floating_Pins_Online "FALSE")
+    (DRC_Run_Electrical_Reports "TRUE")
+    (DRC_Report_Netnames "FALSE")
+    (DRC_Report_Off-grid_Objects "FALSE")
+    (DRC_Report_Ports_and_Off-page_Connectors "FALSE")
+    (DRC_Check_for_Misleading_TAP "FALSE")
+    (DRC_Run_Physical_Rules "TRUE")
+    (DRC_Check_Physical_Power_Pins_Visibility "TRUE")
+    (DRC_Check_PCB_Footprint_Property "TRUE")
+    (DRC_Check_Normal_Convert_View_Sync "TRUE")
+    (DRC_Check_Incorrect_PinGroup_Assignment "TRUE")
+    (DRC_Check_High_Speed_Props_Syntax "TRUE")
+    (DRC_Check_Missing_Pin_Numbers "TRUE")
+    (DRC_Check_Device_With_No_Pins "TRUE")
+    (DRC_Check_Power_Ground_Short "TRUE")
+    (DRC_Check_Name_Prop_For_HierBlocks "TRUE")
+    (DRC_Check_Physical_Power_Pins_Visibility_Online "FALSE")
+    (DRC_Check_PCB_Footprint_Property_Online "TRUE")
+    (DRC_Check_Normal_Convert_View_Sync_Online "FALSE")
+    (DRC_Check_Incorrect_PinGroup_Assignment_Online "TRUE")
+    (DRC_Check_Missing_Pin_Numbers_Online "TRUE")
+    (DRC_Check_Device_With_No_Pins_Online "FALSE")
+    (DRC_Check_Power_Ground_Short_Online "FALSE")
+    (DRC_Check_Name_Prop_For_HierBlocks_Online "FALSE")
+    (DRC_Run_Physical_Reports "TRUE")
+    (DRC_Visible_Power_pins "FALSE")
+    (DRC_Report_Unused_Part_Packages "TRUE")
+    (DRC_Type_Mismatch "TRUE")
+    (DRC_Identical_References "TRUE")
+    (DRC_Run_Simulation_Rules "TRUE")
+    (DRC_Check_Pspice_Model_Lib_Path_Online "FALSE")
+    (DRC_Run_Custom_Rules "FALSE")
+    (DRC_Report_File "C:\USERS\LIRONSH\DOCUMENTS\CUSP-LABS\LAB 4\LAB 4.DRC")
+    (Board_sim_option "VHDL_flow"))
   (Folder "Layout")
   (Folder "Outputs"
     (File ".\lab 4-pspicefiles\lab 4\lab 4.net"
@@ -33,7 +89,7 @@
          ".\lab 4-pspicefiles\pwm\transient.sim"
         (DisplayName "PWM-Transient")
         (Type "PSpice Profile"))
-      (ActiveProfile ".\lab 4-pspicefiles\pwm\transient.sim"))
+      (ActiveProfile ".\lab 4-pspicefiles\lab 4\transient.sim"))
     (Folder "Model Libraries"
       (Sort User))
     (Folder "Stimulus Files"
@@ -43,6 +99,68 @@
   (Folder "Logs")
   (MPSSessionName "lironsh")
   (PartMRUSelector
+    (POWER_DIODE_P
+      (FullPartName "POWER_DIODE_P.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\PSPICE\BREAKOUT.OLB")
+      (DeviceIndex "0"))
+    (Dbreak3
+      (FullPartName "Dbreak3.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\PSPICE\BREAKOUT.OLB")
+      (DeviceIndex "0"))
+    (Dbreak
+      (FullPartName "Dbreak.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\PSPICE\BREAKOUT.OLB")
+      (DeviceIndex "0"))
+    (0
+      (LibraryName "C:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (C
+      (FullPartName "C.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\PSPICE\ANALOG.OLB")
+      (DeviceIndex "0"))
+    (R
+      (FullPartName "R.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\PSPICE\ANALOG.OLB")
+      (DeviceIndex "0"))
+    (L
+      (FullPartName "L.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\PSPICE\ANALOG.OLB")
+      (DeviceIndex "0"))
+    (PORTRIGHT-R
+      (LibraryName "C:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (PORTRIGHT-L
+      (LibraryName "C:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (PORTLEFT-L
+      (LibraryName "C:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (ABM2
+      (FullPartName "ABM2.Normal")
+      (LibraryName "C:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\PSPICE\ABM.OLB")
+      (DeviceIndex "0"))
+    (TABLE
+      (FullPartName "TABLE.Normal")
+      (LibraryName "C:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\PSPICE\ABM.OLB")
+      (DeviceIndex "0"))
+    (EVALUE
+      (FullPartName "EVALUE.Normal")
+      (LibraryName "C:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\PSPICE\ABM.OLB")
+      (DeviceIndex "0"))
+    (ETABLE
+      (FullPartName "ETABLE.Normal")
+      (LibraryName "C:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\PSPICE\ABM.OLB")
+      (DeviceIndex "0"))
+    (ABM
+      (FullPartName "ABM.Normal")
+      (LibraryName "C:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\PSPICE\ABM.OLB")
+      (DeviceIndex "0"))
     (MULTIPLIER
       (FullPartName "MULTIPLIER.Normal")
       (LibraryName
@@ -64,28 +182,10 @@
     (PORTLEFT-R
       (LibraryName "C:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
       (DeviceIndex "0"))
-    (PORTRIGHT-R
-      (LibraryName "C:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
-      (DeviceIndex "0"))
-    (ABM2
-      (FullPartName "ABM2.Normal")
-      (LibraryName "C:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\PSPICE\ABM.OLB")
-      (DeviceIndex "0"))
     (PARAM
       (FullPartName "PARAM.Normal")
       (LibraryName
          "C:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\PSPICE\SPECIAL.OLB")
-      (DeviceIndex "0"))
-    (C
-      (FullPartName "C.Normal")
-      (LibraryName
-         "C:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\PSPICE\ANALOG.OLB")
-      (DeviceIndex "0"))
-    (PORTLEFT-L
-      (LibraryName "C:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
-      (DeviceIndex "0"))
-    (0
-      (LibraryName "C:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
       (DeviceIndex "0"))
     (VPULSE
       (FullPartName "VPULSE.Normal")
@@ -105,46 +205,14 @@
     (PWM
       (FullPartName "PWM.Normal")
       (LibraryName "C:\USERS\LIRONSH\DOCUMENTS\CUSP-LABS\LAB 4\LIBRARY1.OLB")
-      (DeviceIndex "0"))
-    (UC2825B
-      (FullPartName "UC2825B.Normal")
-      (LibraryName
-         "C:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\PSPICE\SWIT_REG.OLB")
-      (DeviceIndex "0"))
-    (MIC2245
-      (FullPartName "MIC2245.Normal")
-      (LibraryName
-         "C:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\PSPICE\MICREL_STEPDOWN_REGULATOR.OLB")
-      (DeviceIndex "0"))
-    (1847_SAC
-      (FullPartName "1847_SAC.Normal")
-      (LibraryName
-         "C:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\PSPICE\ADVANLS\SAC.OLB")
-      (DeviceIndex "0"))
-    (ABM1/I
-      (FullPartName "ABM1/I.Normal")
-      (LibraryName "C:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\PSPICE\ABM.OLB")
-      (DeviceIndex "0"))
-    (BAW100/INF
-      (FullPartName "BAW100/INF.Normal")
-      (LibraryName
-         "C:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\PSPICE\INFINEON.OLB")
-      (DeviceIndex "0"))
-    (1825_SAC
-      (FullPartName "1825_SAC.Normal")
-      (LibraryName
-         "C:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\PSPICE\ADVANLS\SAC.OLB")
-      (DeviceIndex "0"))
-    (S
-      (FullPartName "S.Normal")
-      (LibraryName
-         "C:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\PSPICE\ANALOG.OLB")
       (DeviceIndex "0")))
   (GlobalState
     (FileView
       (Path "Design Resources")
       (Path "Design Resources"
          "c:\users\lironsh\documents\cusp-labs\lab 4\lab 4.dsn")
+      (Path "Design Resources"
+         "c:\users\lironsh\documents\cusp-labs\lab 4\lab 4.dsn" "LAB 4")
       (Path "Design Resources"
          "c:\users\lironsh\documents\cusp-labs\lab 4\lab 4.dsn" "PWM")
       (Path "Design Resources" "Library")
@@ -155,15 +223,25 @@
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 0 200 0 635"))
+        (Placement "44 0 1 -1 -1 -1 -1 0 200 0 606"))
       (Tab 0))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 5 1323 24 653")
-        (Scroll "534 527")
-        (Zoom "204")
+        (Placement "44 0 1 -1 -1 -1 -1 5 1368 24 647")
+        (Scroll "90 810")
+        (Zoom "200")
         (Occurrence "/"))
+      (Path "C:\USERS\LIRONSH\DOCUMENTS\CUSP-LABS\LAB 4\LAB 4.DSN")
+      (Schematic "LAB 4")
+      (Page "LAB 4"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 5 1368 24 647")
+        (Scroll "1558 354")
+        (Zoom "200")
+        (Occurrence "/U"))
       (Path "C:\USERS\LIRONSH\DOCUMENTS\CUSP-LABS\LAB 4\LAB 4.DSN")
       (Schematic "PWM")
       (Page "PAGE1"))))

@@ -128,3 +128,20 @@ Pspice Models/MUR200.LIBerrorLog
 Pspice Models/MUR2020_0.OBK
 
 Pspice Models/MUR2020.symwiz.log
+*.sim
+*.1OP
+*.cir
+*.mif
+*.mrk
+*.net
+*.prp
+*.out
+*.1
+*.prb
+*.download
+*.DSNlck
+*.png
+*.DBK
+*.OLBlck
+*.als
+*.dat
